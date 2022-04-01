@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PeopleOcclusion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ZJ-Ui-dyA">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </arView>
+                            <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mqX-AX-wH3">
+                                <rect key="frame" x="321" y="44" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchValueDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Bw2-pU-nrh"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7ZJ-Ui-dyA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1MI-aY-EoC"/>
+                            <constraint firstAttribute="bottom" secondItem="7ZJ-Ui-dyA" secondAttribute="bottom" id="FmR-Ed-Lye"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mqX-AX-wH3" secondAttribute="trailing" constant="20" id="bKV-YY-jZY"/>
+                            <constraint firstItem="7ZJ-Ui-dyA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bqW-MS-m2l"/>
+                            <constraint firstItem="mqX-AX-wH3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qtS-9J-mQS"/>
+                            <constraint firstItem="7ZJ-Ui-dyA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uMY-0D-Cbc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="7ZJ-Ui-dyA" id="N1m-Vq-Usq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.109375" y="103.66032210834553"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

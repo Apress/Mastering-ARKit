@@ -1,0 +1,14 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "Cocoa-Powder.arobject"
+    },
+    {
+      "filename" : "Noodle-Scan.arobject"
+    }
+  ]
+}

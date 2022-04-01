@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Sharing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQD-ba-LEb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shared Experiences" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1hQ-MW-pDs">
+                                <rect key="frame" x="16" y="818" width="382" height="44"/>
+                                <color key="backgroundColor" name="CustomOrange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="IhR-kd-MVZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="linkColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7yS-Rw-TMt">
+                                <rect key="frame" x="250" y="52" width="148" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmk-qB-JWR">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                        <color key="tintColor" name="CustomOrange"/>
+                                        <state key="normal" image="person.2.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeL-Tz-Jnf">
+                                        <rect key="frame" x="52" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="HgY-eh-ogD"/>
+                                            <constraint firstAttribute="width" constant="44" id="u0P-du-ChF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="tintColor" name="CustomOrange"/>
+                                        <state key="normal" image="personalhotspot" catalog="system"/>
+                                        <connections>
+                                            <action selector="resetButtonDidTouchUpInside:" destination="BV1-FR-VrT" eventType="touchUpInside" id="naf-WD-NSF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4BV-M8-3BV">
+                                        <rect key="frame" x="104" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="5iJ-S7-Cfr"/>
+                                            <constraint firstAttribute="width" constant="44" id="GqR-EU-Emw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="tintColor" name="CustomOrange"/>
+                                        <state key="normal" image="arrow.clockwise" catalog="system"/>
+                                        <connections>
+                                            <action selector="resetButtonDidTouchUpInside:" destination="BV1-FR-VrT" eventType="touchUpInside" id="gmF-8v-tOQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="7yS-Rw-TMt" secondAttribute="trailing" constant="16" id="7lE-Lc-i9D"/>
+                            <constraint firstItem="1hQ-MW-pDs" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="16" id="9xb-Ih-duJ"/>
+                            <constraint firstItem="7yS-Rw-TMt" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="8" id="C3u-Km-eCw"/>
+                            <constraint firstAttribute="bottom" secondItem="bQD-ba-LEb" secondAttribute="bottom" id="TGF-df-7c4"/>
+                            <constraint firstItem="bQD-ba-LEb" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="V2X-EE-K31"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="1hQ-MW-pDs" secondAttribute="bottom" id="XCH-LD-yTi"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="1hQ-MW-pDs" secondAttribute="trailing" constant="16" id="dNE-ow-xuf"/>
+                            <constraint firstItem="bQD-ba-LEb" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="jVQ-VK-3xr"/>
+                            <constraint firstItem="bQD-ba-LEb" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="qCO-gp-Ch6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="bQD-ba-LEb" id="ZI4-6w-UC2"/>
+                        <outlet property="linkButton" destination="HeL-Tz-Jnf" id="oVB-Ss-DBH"/>
+                        <outlet property="peersButton" destination="jmk-qB-JWR" id="nUn-zz-RyH"/>
+                        <outlet property="resetButton" destination="4BV-M8-3BV" id="fwZ-hW-VzY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="personalhotspot" catalog="system" width="128" height="75"/>
+        <namedColor name="CustomOrange">
+            <color red="0.90299999713897705" green="0.44800001382827759" blue="0.23199999332427979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
