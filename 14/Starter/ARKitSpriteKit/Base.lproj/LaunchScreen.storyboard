@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O4B-vx-xkr">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gpg-E3-8Di">
+            <objects>
+                <viewController id="O4B-vx-xkr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YSZ-NJ-eSm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="WW6-mx-tIp">
+                                <rect key="frame" x="87" y="275.5" width="240" height="289.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="KtJ-23-jDU">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="cPJ-hf-JkC"/>
+                                            <constraint firstAttribute="width" secondItem="KtJ-23-jDU" secondAttribute="height" multiplier="1:1" id="vOL-Fg-85r"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Jayven Nhan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVt-E0-92e">
+                                        <rect key="frame" x="0.0" y="256" width="240" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VmE-Vl-pGO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WW6-mx-tIp" secondAttribute="bottom" constant="68" id="B0G-bQ-onQ"/>
+                            <constraint firstItem="WW6-mx-tIp" firstAttribute="centerX" secondItem="YSZ-NJ-eSm" secondAttribute="centerX" id="MHZ-5v-zVl"/>
+                            <constraint firstItem="WW6-mx-tIp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="VmE-Vl-pGO" secondAttribute="top" constant="68" id="ZZJ-Kj-Xfb"/>
+                            <constraint firstItem="WW6-mx-tIp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VmE-Vl-pGO" secondAttribute="leading" constant="68" id="kbH-At-uLx"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="WW6-mx-tIp" secondAttribute="trailing" constant="68" id="l19-Cc-u2L"/>
+                            <constraint firstItem="WW6-mx-tIp" firstAttribute="centerY" secondItem="YSZ-NJ-eSm" secondAttribute="centerY" constant="-28" id="yiP-fc-wSn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VxG-Ol-ni4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreenBackground" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

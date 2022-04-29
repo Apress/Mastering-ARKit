@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/simon/Downloads/AppCoda-ARKit-Part2/Projects/AppCoda-ARKit-Part2-Starter/ARKit3DDemo.xcodeproj">
    </FileRef>
 </Workspace>

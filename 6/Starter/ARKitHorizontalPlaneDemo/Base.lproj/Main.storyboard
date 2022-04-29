@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Yp-6W-mDI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dbH-DJ-x2O">
+            <objects>
+                <viewController id="1Yp-6W-mDI" customClass="ViewController" customModule="ARKitHorizontalPlaneDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ghv-To-4Wu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fR5-oo-Qrg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="RC6-vG-NaV">
+                                <rect key="frame" x="16" y="16" width="343" height="32"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <segments>
+                                    <segment title="Ship"/>
+                                    <segment title="Boat"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fR5-oo-Qrg" secondAttribute="trailing" id="6lI-zC-XGJ"/>
+                            <constraint firstItem="fR5-oo-Qrg" firstAttribute="top" secondItem="ghv-To-4Wu" secondAttribute="top" id="KSd-1g-cbq"/>
+                            <constraint firstItem="RC6-vG-NaV" firstAttribute="leading" secondItem="b4o-Vi-bpX" secondAttribute="leading" constant="16" id="O99-gQ-2Aq"/>
+                            <constraint firstItem="b4o-Vi-bpX" firstAttribute="trailing" secondItem="RC6-vG-NaV" secondAttribute="trailing" constant="16" id="V6O-98-8Pk"/>
+                            <constraint firstItem="RC6-vG-NaV" firstAttribute="top" secondItem="b4o-Vi-bpX" secondAttribute="top" constant="16" id="faE-g5-rvN"/>
+                            <constraint firstAttribute="bottom" secondItem="fR5-oo-Qrg" secondAttribute="bottom" id="gC4-oT-WT4"/>
+                            <constraint firstItem="fR5-oo-Qrg" firstAttribute="leading" secondItem="ghv-To-4Wu" secondAttribute="leading" id="ry2-AQ-aCG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b4o-Vi-bpX"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="fR5-oo-Qrg" id="grf-zR-jUr"/>
+                        <outlet property="segmentedControl" destination="RC6-vG-NaV" id="fwp-rn-uWE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUR-U6-CO5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

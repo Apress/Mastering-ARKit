@@ -3,39 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA3330A6281BA36000D5C977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3330A5281BA36000D5C977 /* AppDelegate.swift */; };
-		FA3330A8281BA36000D5C977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3330A7281BA36000D5C977 /* SceneDelegate.swift */; };
-		FA3330AA281BA36000D5C977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3330A9281BA36000D5C977 /* ViewController.swift */; };
-		FA3330AD281BA36000D5C977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3330AB281BA36000D5C977 /* Main.storyboard */; };
-		FA3330AF281BA36D00D5C977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3330AE281BA36D00D5C977 /* Assets.xcassets */; };
-		FA3330B2281BA36D00D5C977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3330B0281BA36D00D5C977 /* LaunchScreen.storyboard */; };
-		FA3330BE281BA39600D5C977 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = FA3330BA281BA39600D5C977 /* car.dae */; };
-		FA3330C0281BA39600D5C977 /* paperPlane.scn in Resources */ = {isa = PBXBuildFile; fileRef = FA3330BC281BA39600D5C977 /* paperPlane.scn */; };
-		FA3330C1281BA39600D5C977 /* ufo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA3330BD281BA39600D5C977 /* ufo.usdz */; };
-		FA390C14281BA6A600882CE0 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA390C13281BA6A600882CE0 /* toy_robot_vintage.usdz */; };
+		634751271F9E1CE000B52EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634751261F9E1CE000B52EE7 /* AppDelegate.swift */; };
+		634751291F9E1CE000B52EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634751281F9E1CE000B52EE7 /* ViewController.swift */; };
+		6347512C1F9E1CE000B52EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6347512A1F9E1CE000B52EE7 /* Main.storyboard */; };
+		6347512E1F9E1CE000B52EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6347512D1F9E1CE000B52EE7 /* Assets.xcassets */; };
+		634751311F9E1CE000B52EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6347512F1F9E1CE000B52EE7 /* LaunchScreen.storyboard */; };
+		6383C5F01F9F742D00CCB6D2 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 6383C5EF1F9F742D00CCB6D2 /* car.dae */; };
+		63CEAFF71FA5ABA800DA9274 /* paperPlane.scn in Resources */ = {isa = PBXBuildFile; fileRef = 63CEAFF61FA5A3B700DA9274 /* paperPlane.scn */; };
+		63F8615024849ABA00ED39FB /* ufo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 63F8614F24849ABA00ED39FB /* ufo.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA3330A2281BA36000D5C977 /* ARKit3DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit3DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA3330A5281BA36000D5C977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA3330A7281BA36000D5C977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA3330A9281BA36000D5C977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA3330AC281BA36000D5C977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FA3330AE281BA36D00D5C977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA3330B1281BA36D00D5C977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FA3330B3281BA36D00D5C977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA3330BA281BA39600D5C977 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
-		FA3330BC281BA39600D5C977 /* paperPlane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = paperPlane.scn; sourceTree = "<group>"; };
-		FA3330BD281BA39600D5C977 /* ufo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ufo.usdz; sourceTree = "<group>"; };
-		FA390C13281BA6A600882CE0 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		634751231F9E1CE000B52EE7 /* ARKit3DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit3DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634751261F9E1CE000B52EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		634751281F9E1CE000B52EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6347512B1F9E1CE000B52EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6347512D1F9E1CE000B52EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		634751301F9E1CE000B52EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		634751321F9E1CE000B52EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6383C5EF1F9F742D00CCB6D2 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		63CEAFF61FA5A3B700DA9274 /* paperPlane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = paperPlane.scn; sourceTree = "<group>"; };
+		63F8614F24849ABA00ED39FB /* ufo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ufo.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA33309F281BA36000D5C977 /* Frameworks */ = {
+		634751201F9E1CE000B52EE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,44 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA333099281BA36000D5C977 = {
+		6347511A1F9E1CDF00B52EE7 = {
 			isa = PBXGroup;
 			children = (
-				FA3330A4281BA36000D5C977 /* ARKit3DDemo */,
-				FA3330A3281BA36000D5C977 /* Products */,
+				634751251F9E1CE000B52EE7 /* ARKit3DDemo */,
+				634751241F9E1CE000B52EE7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA3330A3281BA36000D5C977 /* Products */ = {
+		634751241F9E1CE000B52EE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA3330A2281BA36000D5C977 /* ARKit3DDemo.app */,
+				634751231F9E1CE000B52EE7 /* ARKit3DDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA3330A4281BA36000D5C977 /* ARKit3DDemo */ = {
+		634751251F9E1CE000B52EE7 /* ARKit3DDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FA3330B9281BA39600D5C977 /* 3D Objects */,
-				FA3330A5281BA36000D5C977 /* AppDelegate.swift */,
-				FA3330A7281BA36000D5C977 /* SceneDelegate.swift */,
-				FA3330A9281BA36000D5C977 /* ViewController.swift */,
-				FA3330AB281BA36000D5C977 /* Main.storyboard */,
-				FA3330AE281BA36D00D5C977 /* Assets.xcassets */,
-				FA3330B0281BA36D00D5C977 /* LaunchScreen.storyboard */,
-				FA3330B3281BA36D00D5C977 /* Info.plist */,
+				6383C5EC1F9F741400CCB6D2 /* 3D Objects */,
+				634751261F9E1CE000B52EE7 /* AppDelegate.swift */,
+				634751281F9E1CE000B52EE7 /* ViewController.swift */,
+				6347512A1F9E1CE000B52EE7 /* Main.storyboard */,
+				6347512D1F9E1CE000B52EE7 /* Assets.xcassets */,
+				6347512F1F9E1CE000B52EE7 /* LaunchScreen.storyboard */,
+				634751321F9E1CE000B52EE7 /* Info.plist */,
 			);
 			path = ARKit3DDemo;
 			sourceTree = "<group>";
 		};
-		FA3330B9281BA39600D5C977 /* 3D Objects */ = {
+		6383C5EC1F9F741400CCB6D2 /* 3D Objects */ = {
 			isa = PBXGroup;
 			children = (
-				FA3330BA281BA39600D5C977 /* car.dae */,
-				FA3330BC281BA39600D5C977 /* paperPlane.scn */,
-				FA390C13281BA6A600882CE0 /* toy_robot_vintage.usdz */,
-				FA3330BD281BA39600D5C977 /* ufo.usdz */,
+				63F8614F24849ABA00ED39FB /* ufo.usdz */,
+				63CEAFF61FA5A3B700DA9274 /* paperPlane.scn */,
+				6383C5EF1F9F742D00CCB6D2 /* car.dae */,
 			);
 			path = "3D Objects";
 			sourceTree = "<group>";
@@ -90,99 +84,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA3330A1281BA36000D5C977 /* ARKit3DDemo */ = {
+		634751221F9E1CE000B52EE7 /* ARKit3DDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA3330B6281BA36D00D5C977 /* Build configuration list for PBXNativeTarget "ARKit3DDemo" */;
+			buildConfigurationList = 634751351F9E1CE000B52EE7 /* Build configuration list for PBXNativeTarget "ARKit3DDemo" */;
 			buildPhases = (
-				FA33309E281BA36000D5C977 /* Sources */,
-				FA33309F281BA36000D5C977 /* Frameworks */,
-				FA3330A0281BA36000D5C977 /* Resources */,
+				6347511F1F9E1CE000B52EE7 /* Sources */,
+				634751201F9E1CE000B52EE7 /* Frameworks */,
+				634751211F9E1CE000B52EE7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ARKit3DDemo;
-			productName = ARKit3DDemo;
-			productReference = FA3330A2281BA36000D5C977 /* ARKit3DDemo.app */;
+			productName = "AppCoda-ARKit-Part2";
+			productReference = 634751231F9E1CE000B52EE7 /* ARKit3DDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA33309A281BA36000D5C977 /* Project object */ = {
+		6347511B1F9E1CDF00B52EE7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Jayven Nhan";
 				TargetAttributes = {
-					FA3330A1281BA36000D5C977 = {
-						CreatedOnToolsVersion = 13.3.1;
+					634751221F9E1CE000B52EE7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1210;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FA33309D281BA36000D5C977 /* Build configuration list for PBXProject "ARKit3DDemo" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 6347511E1F9E1CDF00B52EE7 /* Build configuration list for PBXProject "ARKit3DDemo" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FA333099281BA36000D5C977;
-			productRefGroup = FA3330A3281BA36000D5C977 /* Products */;
+			mainGroup = 6347511A1F9E1CDF00B52EE7;
+			productRefGroup = 634751241F9E1CE000B52EE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA3330A1281BA36000D5C977 /* ARKit3DDemo */,
+				634751221F9E1CE000B52EE7 /* ARKit3DDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA3330A0281BA36000D5C977 /* Resources */ = {
+		634751211F9E1CE000B52EE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3330B2281BA36D00D5C977 /* LaunchScreen.storyboard in Resources */,
-				FA3330BE281BA39600D5C977 /* car.dae in Resources */,
-				FA3330C1281BA39600D5C977 /* ufo.usdz in Resources */,
-				FA3330AF281BA36D00D5C977 /* Assets.xcassets in Resources */,
-				FA3330C0281BA39600D5C977 /* paperPlane.scn in Resources */,
-				FA3330AD281BA36000D5C977 /* Main.storyboard in Resources */,
-				FA390C14281BA6A600882CE0 /* toy_robot_vintage.usdz in Resources */,
+				634751311F9E1CE000B52EE7 /* LaunchScreen.storyboard in Resources */,
+				6347512E1F9E1CE000B52EE7 /* Assets.xcassets in Resources */,
+				63F8615024849ABA00ED39FB /* ufo.usdz in Resources */,
+				6383C5F01F9F742D00CCB6D2 /* car.dae in Resources */,
+				63CEAFF71FA5ABA800DA9274 /* paperPlane.scn in Resources */,
+				6347512C1F9E1CE000B52EE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA33309E281BA36000D5C977 /* Sources */ = {
+		6347511F1F9E1CE000B52EE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3330AA281BA36000D5C977 /* ViewController.swift in Sources */,
-				FA3330A6281BA36000D5C977 /* AppDelegate.swift in Sources */,
-				FA3330A8281BA36000D5C977 /* SceneDelegate.swift in Sources */,
+				634751291F9E1CE000B52EE7 /* ViewController.swift in Sources */,
+				634751271F9E1CE000B52EE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA3330AB281BA36000D5C977 /* Main.storyboard */ = {
+		6347512A1F9E1CE000B52EE7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA3330AC281BA36000D5C977 /* Base */,
+				6347512B1F9E1CE000B52EE7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FA3330B0281BA36D00D5C977 /* LaunchScreen.storyboard */ = {
+		6347512F1F9E1CE000B52EE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA3330B1281BA36D00D5C977 /* Base */,
+				634751301F9E1CE000B52EE7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,16 +184,16 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FA3330B4281BA36D00D5C977 /* Debug */ = {
+		634751331F9E1CE000B52EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -222,6 +216,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -240,9 +235,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -250,16 +244,16 @@
 			};
 			name = Debug;
 		};
-		FA3330B5281BA36D00D5C977 /* Release */ = {
+		634751341F9E1CE000B52EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -282,6 +276,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -294,71 +289,45 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FA3330B7281BA36D00D5C977 /* Debug */ = {
+		634751361F9E1CE000B52EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXU3B85A8F;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ARKit3DDemo/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "For Augmented Reality";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit3DDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jayvennhan.app.ARKit3DDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FA3330B8281BA36D00D5C977 /* Release */ = {
+		634751371F9E1CE000B52EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXU3B85A8F;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ARKit3DDemo/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "For Augmented Reality";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit3DDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jayvennhan.app.ARKit3DDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA33309D281BA36000D5C977 /* Build configuration list for PBXProject "ARKit3DDemo" */ = {
+		6347511E1F9E1CDF00B52EE7 /* Build configuration list for PBXProject "ARKit3DDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA3330B4281BA36D00D5C977 /* Debug */,
-				FA3330B5281BA36D00D5C977 /* Release */,
+				634751331F9E1CE000B52EE7 /* Debug */,
+				634751341F9E1CE000B52EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA3330B6281BA36D00D5C977 /* Build configuration list for PBXNativeTarget "ARKit3DDemo" */ = {
+		634751351F9E1CE000B52EE7 /* Build configuration list for PBXNativeTarget "ARKit3DDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA3330B7281BA36D00D5C977 /* Debug */,
-				FA3330B8281BA36D00D5C977 /* Release */,
+				634751361F9E1CE000B52EE7 /* Debug */,
+				634751371F9E1CE000B52EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA33309A281BA36000D5C977 /* Project object */;
+	rootObject = 6347511B1F9E1CDF00B52EE7 /* Project object */;
 }
