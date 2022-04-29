@@ -1,4 +1,4 @@
-/// Copyright (c) 2021 Jayven Nhan
+/// Copyright (c) 2022 Jayven Nhan
 ///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
@@ -88,6 +88,5 @@ class ViewController: UIViewController {
     ufoNode.load()
     sceneView.scene.rootNode.addChildNode(ufoNode)
   }
-  
+    
 }
-
