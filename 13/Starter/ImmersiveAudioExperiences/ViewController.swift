@@ -34,7 +34,6 @@ import UIKit
 import ARKit
 
 final class ViewController: UIViewController {
-  
   // MARK: - Properties
   private let sceneView: ARSCNView = {
     let sceneView = ARSCNView()
@@ -42,24 +41,20 @@ final class ViewController: UIViewController {
     sceneView.automaticallyUpdatesLighting = true
     return sceneView
   }()
-  
   // MARK: - Life Cycles
   override func viewDidLoad() {
     super.viewDidLoad()
     setupSceneView()
     setupSceneViewCamera()
   }
-  
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     resetTrackingConfiguration()
   }
-  
   override func viewWillDisappear(_ animated: Bool) {
     super.viewWillDisappear(animated)
     sceneView.session.pause()
   }
-  
   // MARK: - Scene View
   private func setupSceneView() {
     view.addSubview(sceneView)
@@ -69,26 +64,23 @@ final class ViewController: UIViewController {
        sceneView.topAnchor.constraint(equalTo: view.topAnchor),
        sceneView.bottomAnchor.constraint(equalTo: view.bottomAnchor)])
   }
-  
   // MARK: - Tracking Configuration
   private func resetTrackingConfiguration() {
     let configuration = ARWorldTrackingConfiguration()
     configuration.planeDetection = .horizontal
-    sceneView.session.run(configuration, options: [.resetTracking,
-                                                   .removeExistingAnchors])
+    sceneView.session.run(
+      configuration,
+      options: [.resetTracking, .removeExistingAnchors]
+    )
   }
-  
   private func turnOffPlaneDetectionTracking() {
     let configuration = ARWorldTrackingConfiguration()
     sceneView.session.run(configuration, options: [])
   }
-  
   // MARK: - Camera
   private func setupSceneViewCamera() {
     guard let camera = sceneView.pointOfView?.camera else { return }
     camera.wantsHDR = true
   }
-  
   // MARK: - Audio
-  
 }
