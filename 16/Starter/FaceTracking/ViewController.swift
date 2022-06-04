@@ -43,6 +43,7 @@ final class ViewController: UIViewController {
   private var leftEyeAnchor: ARAnchor?
   private var rightEyeAnchor: ARAnchor?
   private var isPlayingSound = false
+  private var isPlayingEyebrowsAnimation = false
   
   // MARK: - Initializers
   
