@@ -50,10 +50,11 @@ final class ViewController: UIViewController {
     return audioSource
   }()
   private let lionNode: SCNNode = {
-    guard let scene = SCNScene(named: "Lion.scn"),
+    guard
+      let scene = SCNScene(named: "Lion.scn"),
       let node = scene.rootNode.childNode(
         withName: "Lion", recursively: false)
-      else { fatalError("Lion node could not be found.") }
+    else { fatalError("Lion node could not be found.") }
     return node
   }()
   // MARK: - Life Cycles

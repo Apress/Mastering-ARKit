@@ -41,6 +41,13 @@ final class ViewController: UIViewController {
     sceneView.automaticallyUpdatesLighting = true
     return sceneView
   }()
+  private let lionNode: SCNNode = {
+    guard let scene = SCNScene(named: "Lion.scn"),
+          let node = scene.rootNode.childNode(
+            withName: "Lion", recursively: false)
+    else { fatalError("Lion node could not be found.") }
+    return node
+  }()
   // MARK: - Life Cycles
   override func viewDidLoad() {
     super.viewDidLoad()
