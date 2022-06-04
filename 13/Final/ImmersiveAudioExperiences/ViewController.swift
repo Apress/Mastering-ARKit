@@ -42,7 +42,7 @@ final class ViewController: UIViewController {
     return sceneView
   }()
   private let audioSource: SCNAudioSource = {
-    let fileName = "Lion-mono.mp3"
+    let fileName = "lion-mono.mp3"
     guard let audioSource = SCNAudioSource(fileNamed: fileName)
       else { fatalError("\(fileName) can not be found.") }
     audioSource.loops = true

@@ -15,8 +15,8 @@
 		FD3998B022FEEEFB0049F761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3998AE22FEEEFB0049F761 /* LaunchScreen.storyboard */; };
 		FD3998CE22FF03200049F761 /* Lion.scn in Resources */ = {isa = PBXBuildFile; fileRef = FD3998CD22FF03200049F761 /* Lion.scn */; };
 		FD3998D022FF03310049F761 /* Lion.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3998CF22FF03310049F761 /* Lion.png */; };
-		FD3998D4230017570049F761 /* Lion-stereo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD3998D3230017570049F761 /* Lion-stereo.mp3 */; };
-		FD3998D823001BF60049F761 /* Lion-mono.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD3998D723001BF60049F761 /* Lion-mono.mp3 */; };
+		FD3998D4230017570049F761 /* lion-stereo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD3998D3230017570049F761 /* lion-stereo.mp3 */; };
+		FD3998D823001BF60049F761 /* lion-mono.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD3998D723001BF60049F761 /* lion-mono.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		FD3998C022FEF34A0049F761 /* Credits.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Credits.md; sourceTree = "<group>"; };
 		FD3998CD22FF03200049F761 /* Lion.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Lion.scn; sourceTree = "<group>"; };
 		FD3998CF22FF03310049F761 /* Lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lion.png; sourceTree = "<group>"; };
-		FD3998D3230017570049F761 /* Lion-stereo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lion-stereo.mp3"; sourceTree = "<group>"; };
-		FD3998D723001BF60049F761 /* Lion-mono.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lion-mono.mp3"; sourceTree = "<group>"; };
+		FD3998D3230017570049F761 /* lion-stereo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lion-stereo.mp3"; sourceTree = "<group>"; };
+		FD3998D723001BF60049F761 /* lion-mono.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lion-mono.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,8 @@
 		FD3998C522FEF9730049F761 /* Audio Tracks */ = {
 			isa = PBXGroup;
 			children = (
-				FD3998D723001BF60049F761 /* Lion-mono.mp3 */,
-				FD3998D3230017570049F761 /* Lion-stereo.mp3 */,
+				FD3998D723001BF60049F761 /* lion-mono.mp3 */,
+				FD3998D3230017570049F761 /* lion-stereo.mp3 */,
 			);
 			path = "Audio Tracks";
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3998D4230017570049F761 /* Lion-stereo.mp3 in Resources */,
-				FD3998D823001BF60049F761 /* Lion-mono.mp3 in Resources */,
+				FD3998D4230017570049F761 /* lion-stereo.mp3 in Resources */,
+				FD3998D823001BF60049F761 /* lion-mono.mp3 in Resources */,
 				FD3998CE22FF03200049F761 /* Lion.scn in Resources */,
 				FD3998B022FEEEFB0049F761 /* LaunchScreen.storyboard in Resources */,
 				FD3998D022FF03310049F761 /* Lion.png in Resources */,
